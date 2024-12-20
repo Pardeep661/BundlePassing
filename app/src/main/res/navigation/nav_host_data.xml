@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_data"
+    app:startDestination="@id/realtimeDataFragment">
+    <fragment
+        android:id="@+id/realtimeDataFragment"
+        android:name="com.pardeep.bundlepassing.RealtimeDataFragment"
+        android:label="fragment_realtime_data"
+        tools:layout="@layout/fragment_realtime_data" />
+    <fragment
+        android:id="@+id/firestoreFragment"
+        android:name="com.pardeep.bundlepassing.FirestoreFragment"
+        android:label="fragment_firestore"
+        tools:layout="@layout/fragment_firestore" />
+    <fragment
+        android:id="@+id/detailedFragment"
+        android:name="com.pardeep.bundlepassing.DetailedFragment"
+        android:label="fragment_detailed"
+        tools:layout="@layout/fragment_detailed" />
+</navigation>
